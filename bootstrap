@@ -54,8 +54,6 @@ build_env_file() {
   (docker-machine env ${PROJECT} | sed 's/^\s*#.*$//' | sed '/^$/d'
    echo "export CONSUL_HOST=${DOCKER_IP}"
    echo "export CONSUL_HOST=${CONSUL_PORT}"
-   echo "export AMQP_HOST=${DOCKER_IP}"
-   echo "export AMQP_PORT=${AMQP_PORT}"
   ) > $1
 }
 
