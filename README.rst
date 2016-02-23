@@ -31,4 +31,4 @@ or the ``rabbitmq.config`` file under the ``autocluster`` stanza.
 
 Building
 --------
-See `Development Environment <https://github.com/AWeber/rabbitmq-autocluster/wiki/Development-Environment>`_.
+See `Development <https://github.com/AWeber/rabbitmq-autocluster/wiki/Development>`_.
