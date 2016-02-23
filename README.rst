@@ -23,12 +23,12 @@ Configuration
 Configuration for the plugin can be set in two places: operating system environment variables
 or the ``rabbitmq.config`` file under the ``autocluster`` stanza.
 
- - `General Settings <wiki/General-Settings>`_
- - `Consul <wiki/Consul-Configuration>`_
- - `DNS <wiki/DNS-Configuration>`_
+ - `General Settings <https://github.com/AWeber/rabbitmq-autocluster/wiki/General-Settings>`_
+ - `Consul <https://github.com/AWeber/rabbitmq-autocluster/wiki/Consul-Configuration>`_
+ - `DNS <https://github.com/AWeber/rabbitmq-autocluster/wiki/DNS-Configuration>`_
  - EC2
- - `etcd <wiki/etc-Configuration>`_
+ - `etcd <https://github.com/AWeber/rabbitmq-autocluster/wiki/etc-Configuration>`_
 
 Building
 --------
-See `Development Environment <wiki/Development-Environment>`_.
+See `Development Environment <https://github.com/AWeber/rabbitmq-autocluster/wiki/Development-Environment>`_.
