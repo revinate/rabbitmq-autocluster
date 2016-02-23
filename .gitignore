@@ -14,3 +14,5 @@ docker/rabbitmq_autocluster*ez
 .vagrant
 .idea
 .erlang.mk
+autocluster.d
+plugins
