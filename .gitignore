@@ -13,3 +13,4 @@ rel/example_project
 docker/rabbitmq_autocluster*ez
 .vagrant
 .idea
+.erlang.mk
