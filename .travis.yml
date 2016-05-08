@@ -25,8 +25,8 @@ cache:
 deploy:
   provider: releases
   api_key:
-    secure: ktklMK+XMOteFt+m9NHhVqKkA1Wo8f9L/cJphUmBMgb3TS+4+vAU50yY8omIyprS8poc3mBWxjYD9p9xdeDnXY2tiFrLDKCWU/jbH3awD0uL6W0Di8BYAVOGhr2Jjjp6gi/B67wHtCtzEoSSNNfMMZ+RWf4GZjJ96NXOLhPRx4k=
+    secure: q4wUQ3KCg5Bi/JVC+yww017082G1Qa4n8Wwg9HH2K9Zwvx8ZtUeFOsWTU5s4FsYYroveW9ji98otuul3vyQikWcWf7neP3utRjd5LGjj13t89tUrU/pJU5HXgeLvy/u7ORCFVRVR3Lsk29MQ17IVQmO1PxbjwqYUiUMiY9D70LrDZmUCp1/4uCOVEbZEtmmuECn34gltwZ7dKBWTSomEX6VUDvNplu7RWVo3PkBk9oYepEC6ZAFxUvk9dVKMhbgY+QYpQ0BXxL4Z2N7CM7IHBr32imrC14Q6lpI0X1VMXtcZBuyskYbFdy83NqOJ1yzajtCPYVmFm4h9g0c4iefttzGvVuRREYyAIIRhtCdo7P7oVyBWzlxiFIOEnySrFIrX0Gu2OVhc954V5DrRnecUpy/9cr6q3gEolV6g4Oh059c/XmMIUfduKloYBCHgGMn1qfVdKKwX3iVjmVWyal5uYcKwtYmlW30QqkFNMPkRmT9DtegmXeS9ucT1rga0jAhgWxGWfY7hmhgf2Yk8pIGZWmHJ8/4tF8YfWPIzisj2Ch4edyhZiXJoTxZr2vOgBB+OUPW6vdxyal2TZypCI/JafMLSQUmOwrHcM3qhxSurPmYZbMJw8teXmohmQBvJpYIo+5elkcjMdGG6A3/VcdmGuHrHnEEFEZ3Z/UY+2moNh3Y=
   file: "$BUILD_DIR/autocluster/dist/autocluster-${TRAVIS_TAG}.ez"
   on:
     tags: true
-    repo: aweber/rabbitmq-autocluster
+    repo: revinate/rabbitmq-autocluster
