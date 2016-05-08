@@ -3,15 +3,15 @@ RabbitMQ Autocluster
 An RabbitMQ plugin that clusters nodes automatically using `Consul <https://consul.io>`_,
 `etcd2 <https://github.com/coreos/etcd>`_, or DNS for service discovery.
 
-.. image:: https://img.shields.io/travis/aweber/rabbitmq-autocluster.svg
-    :target: https://travis-ci.org/aweber/rabbitmq-autocluster
-.. image:: https://img.shields.io/github/release/aweber/rabbitmq-autocluster.svg
-    :target: https://github.com/aweber/rabbitmq-autocluster/releases
+.. image:: https://img.shields.io/travis/revinate/rabbitmq-autocluster.svg
+    :target: https://travis-ci.org/revinate/rabbitmq-autocluster
+.. image:: https://img.shields.io/github/release/revinate/rabbitmq-autocluster.svg
+    :target: https://github.com/revinate/rabbitmq-autocluster/releases
 
 Download
 --------
 Downloads of autocluster can be found on the
-`GitHub Releases <https://github.com/aweber/rabbitmq-autocluster/releases>`_ page.
+`GitHub Releases <https://github.com/revinate/rabbitmq-autocluster/releases>`_ page.
 Check for version compatibility in the release notes.
 
 Installation
@@ -327,6 +327,6 @@ Steps to custom build a version of the ``rabbitmq-autocluster`` plugin:
     cd rabbitmq-public-umbrella
     make co
     make BRANCH=rabbitmq_v3_5_4 up_c
-    git clone https://github.com/aweber/rabbitmq-autocluster.git
+    git clone https://github.com/revinate/rabbitmq-autocluster.git
     cd rabbitmq-autocluster
     make
